@@ -1,0 +1,97 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #e5e5fd;
+    min-height : 100vh;
+    border : 5px solid black;
+    /* width : 100vw; */
+}
+
+.page{
+    max-width: 56.25rem;
+    margin : 0 auto;
+}
+
+.firstPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.image-container,img{
+    height : 270px;
+    width : 250px;
+}
+
+.image{
+    border-radius: 50%;
+}
+
+.heading{
+    margin-right : 50px;
+    margin-bottom: 95px;
+}
+
+.firstPart h1{
+    font-size : 3.125rem;
+    font-weight: bold;
+}
+.firstPart h4{
+    font-size : 1.875rem;
+    font-weight: bold;
+    text-align: end;
+}
+
+.second-part{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.second-part h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.info{
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: justify;
+    margin-top: 15px;
+    letter-spacing: 1.1px;
+}
+
+.info span{
+    font-weight: bold;
+}
+
+.biography{
+    margin-top : 20px;
+    text-align: left;
+}
+
+.biography h2{
+    font-size : 30px;
+}
+
+.b-list{
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 1.1px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.wiki-link{
+    margin-top: 20px;
+}
+
+.wiki-link p{
+    font-size: 17px;
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom : 10px;
+}
